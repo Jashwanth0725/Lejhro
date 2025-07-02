@@ -9,7 +9,7 @@ function Main() {
         </h1>
 
         <img
-          src="/public/image.png"
+          src="https://res.cloudinary.com/dr1ktryw0/image/upload/v1751453844/image_fbfv5f.png"
           alt="Data Innovation"
           className="w-1/2 rounded-lg mb-8 mx-auto"
         />

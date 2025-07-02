@@ -34,7 +34,11 @@ function Navbar() {
           href="https://www.lejhro.com/"
           className="flex items-center space-x-2 text-white text-3xl font-bold"
         >
-          <img src="/public/logo.png" alt="LEJHRO Logo" className="w-60 h-10" />
+          <img
+            src="https://res.cloudinary.com/dr1ktryw0/image/upload/v1751453843/logo_kcrxmy.png"
+            alt="LEJHRO Logo"
+            className="w-60 h-10"
+          />
         </a>
 
         {/* Desktop menu */}

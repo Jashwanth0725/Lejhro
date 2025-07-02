@@ -74,8 +74,20 @@ function Navbar() {
         } transition-transform duration-300 ease-in-out z-50`}
       >
         <div className="flex justify-between items-center p-6 border-b">
-          <div className="text-2xl font-bold text-blue-600">✈ LEJHRO</div>
-          <button onClick={() => setIsOpen(false)}>
+          <a
+            href="https://www.lejhro.com/"
+            className="flex items-center space-x-2 text-white text-3xl font-bold"
+          >
+            <img
+              src="https://res.cloudinary.com/dr1ktryw0/image/upload/v1751455928/Screenshot_2025-07-02_170120_myj7na.png"
+              alt="LEJHRO Logo"
+              className="w-40 h-8"
+            />
+          </a>
+          <button
+            onClick={() => setIsOpen(false)}
+            className="p-[3px] rounded-full transition-transform duration-300 hover:-translate-y-1"
+          >
             <FaTimes className="w-6 h-6" />
           </button>
         </div>
